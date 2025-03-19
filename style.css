@@ -1,0 +1,45 @@
+.container{
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+body {
+    background-color: #09122C;
+    color: #c5c6c7;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #2D336B;
+    border-radius: 10px;
+}
+.card :hover {
+    transform: scale(1.05);
+    background: #2b3a42;
+}
+.img{
+
+    justify-content: center;
+}
+.heading{
+
+        font-family: 'Georgia', serif;
+        font-weight: bold;
+        color: #66fcf1;
+    
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
